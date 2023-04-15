@@ -30,5 +30,13 @@ exited and the bus returns to the IDLE state if no more transfers are
 required. Alternatively, the bus moves directly to the SETUP state 
 if another transfer follows.
 ## Master-Slave Interface
-![4](https://user-images.githubusercontent.com/65547096/232092989-7c287fb6-9077-497b-8702-601d957174a7.PNG)
-
+![4](https://user-images.githubusercontent.com/65547096/232092989-7c287fb6-9077-497b-8702-601d957174a7.PNG)<br>
+## Adder using APB
+* RTL Design => APB Master
+* TB => APB Slave
+## Output Waveform ( Read and Write Operation)
+![2](https://user-images.githubusercontent.com/65547096/232180175-e9d20d89-bf5b-494a-a299-7edee55bb12c.PNG)<br>
+-Steps:
+*Reading value from a predefined location
+*Increment the value by 1
+*Write the value on that same location
