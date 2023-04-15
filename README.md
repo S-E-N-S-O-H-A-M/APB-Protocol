@@ -36,7 +36,7 @@ if another transfer follows.
 * TB => APB Slave
 ## Output Waveform ( Read and Write Operation)
 ![2](https://user-images.githubusercontent.com/65547096/232180175-e9d20d89-bf5b-494a-a299-7edee55bb12c.PNG)<br>
--Steps:
-*Reading value from a predefined location
-*Increment the value by 1
-*Write the value on that same location
+Steps:
+- Reading value from a predefined location
+- Increment the value by 1
+- Write the value on that same location
